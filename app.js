@@ -486,7 +486,6 @@ function showQRModal(ticket) {
     <h3>Ticket / QR</h3>
     <div class="small">Mostralo al chofer al momento de abordar.</div>
     <div id="qr" class="center mt12"></div>
-    <pre class="card mt12" style="overflow:auto; white-space:pre-wrap; font-size:12px;">${JSON.stringify(payload,null,2)}</pre>
   `;
   back.appendChild(modal);
   document.body.appendChild(back);
